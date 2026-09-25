@@ -15,6 +15,7 @@ const Shooting = () => import('@/views/shooting/index.vue')
 const Footage = () => import('@/views/footage/index.vue')
 const Edit = () => import('@/views/edit/index.vue')
 const Vfx = () => import('@/views/vfx/index.vue')
+const VfxSupplier = () => import('@/views/vfx-supplier/index.vue')
 const Review = () => import('@/views/review/index.vue')
 const Budget = () => import('@/views/budget/index.vue')
 const Expense = () => import('@/views/expense/index.vue')
@@ -40,6 +41,7 @@ const router = createRouter({
     { path: '/footage', name: 'footage', component: Footage },
     { path: '/edit', name: 'edit', component: Edit },
     { path: '/vfx', name: 'vfx', component: Vfx },
+    { path: '/vfx-supplier', name: 'vfx-supplier', component: VfxSupplier },
     { path: '/review', name: 'review', component: Review },
     { path: '/budget', name: 'budget', component: Budget },
     { path: '/expense', name: 'expense', component: Expense },
